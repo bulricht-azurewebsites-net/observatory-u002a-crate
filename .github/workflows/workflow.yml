@@ -12,21 +12,21 @@ jobs:
       WATER_LOGSHEET_URL: https://docs.google.com/spreadsheets/d/1mEi4Bd2YR63WD0j54FQ6QkzcUw_As9Wilue9kaXO2DE/edit?usp=sharing
       SEDIMENT_LOGSHEET_URL: https://docs.google.com/spreadsheets/d/1zc0bZdpl-Eoi35lI_5BGkElbscplyQRyNPLkSgeEyEQ/edit?usp=sharing
       ARMS_LOGSHEET_URL: ""
-      DATA_QUALITY_CONTROL_THRESHOLD_DATE: 31/12/2022 # should crash on this value!
+      DATA_QUALITY_CONTROL_THRESHOLD_DATE: 2022-12-31
       DATA_QUALITY_CONTROL_ASSIGNEE: github-actions[bot]
     steps:
       - name: checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
       - name: populate-action
         uses: emo-bon/populate-action@main
       - name: git-auto-commit-action
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: update on behalf of populate-action
       - name: data-quality-control-action
         uses: emo-bon/data-quality-control-action@main
       - name: git-auto-commit-action
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: update on behalf of data-quality-control-action
       # - name: semantic-uplifting-action
