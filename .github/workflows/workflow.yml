@@ -36,20 +36,20 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: update on behalf of semantic-uplifting-action
-      # - name: rocrate-to-pages
-      #   uses: vliz-be-opsci/rocrate-to-pages@latest
-      #   with:
-      #     multiple_rocrates: true
-      #     release_management: false
-      #     include_draft: false
-      #     index_html: false
-      #     space_to_pages_homepage: https://data.emobon.embrc.eu
-      # - name: actions-gh-pages
-      #   uses: peaceiris/actions-gh-pages@v3
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: rocrate-to-pages
+        uses: vliz-be-opsci/rocrate-to-pages@latest
+        with:
+          multiple_rocrates: true
+          release_management: false
+          include_draft: false
+          index_html: false
+          space_to_pages_homepage: https://data.emobon.embrc.eu
+      - name: actions-gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./unicornpages
 
-      #     publish_dir: ./unicornpages
 
 
 
