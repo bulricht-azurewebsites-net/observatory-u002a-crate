@@ -12,7 +12,7 @@ jobs:
       WATER_LOGSHEET_URL: https://docs.google.com/spreadsheets/d/1mEi4Bd2YR63WD0j54FQ6QkzcUw_As9Wilue9kaXO2DE/edit?usp=sharing
       SEDIMENT_LOGSHEET_URL: https://docs.google.com/spreadsheets/d/1zc0bZdpl-Eoi35lI_5BGkElbscplyQRyNPLkSgeEyEQ/edit?usp=sharing
       ARMS_LOGSHEET_URL: ""
-      DATA_QUALITY_CONTROL_THRESHOLD_DATE: 2022-12-31
+      DATA_QUALITY_CONTROL_THRESHOLD_DATE: "2022-12-31"
       DATA_QUALITY_CONTROL_ASSIGNEE: github-actions[bot]
     steps:
       - name: checkout
@@ -29,14 +29,12 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: update on behalf of data-quality-control-action
-      # - name: semantic-uplifting-action
-      #   uses: emo-bon/semantic-uplifting-action@main
-      #   env:
-      #     PROFILE: ${{ env.ROCRATE_PROFILE_URI }}
-      # - name: git-auto-commit-action
-      #   uses: stefanzweifel/git-auto-commit-action@v5
-      #   with:
-      #     commit_message: update on behalf of semantic-uplifting-action
+      - name: semantic-uplifting-action
+        uses: emo-bon/semantic-uplifting-action@main
+      - name: git-auto-commit-action
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: update on behalf of semantic-uplifting-action
       # - name: rocrate-to-pages
       #   uses: vliz-be-opsci/rocrate-to-pages@latest
       #   with:
@@ -51,4 +49,5 @@ jobs:
       #     github_token: ${{ secrets.GITHUB_TOKEN }}
 
       #     publish_dir: ./unicornpages
+
 
