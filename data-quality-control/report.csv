@@ -1,5 +1,4 @@
 Diagnosis,LogsheetType,LogsheetTab,Column,Row,Value,ExtendedDiagnosis,FilePath,DataType,Requirement
-envo term error,sediment,observatory,env_broad_biome,1,marine biome [ENVO:00000447];marine benthic biome[ENVO_01000024],envo term should be a list of URIs,/github/workspace/logsheets/filtered/sediment_observatory.csv,EMOBONList,mandatory
 source_mat_id error,sediment,sampling,source_mat_id,1,EMOBON_BPNS_So_1,source_mat_id should match ^EMOBON_BPNS_So_210701_meio_1$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 source_mat_id error,sediment,sampling,source_mat_id,2,EMOBON_BPNS_So_2,source_mat_id should match ^EMOBON_BPNS_So_210701_meio_2$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
 source_mat_id error,sediment,sampling,source_mat_id,3,EMOBON_BPNS_So_3,source_mat_id should match ^EMOBON_BPNS_So_210701_meio_3$,/github/workspace/logsheets/filtered/sediment_sampling.csv,XSDString,mandatory
