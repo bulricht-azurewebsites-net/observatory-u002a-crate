@@ -198,22 +198,22 @@ EMOBON 241129 BPNS So3 Micro R2,EMOBON metagenome sediment sample from station B
 EMOBON 241129 BPNS So3 Micro R3,EMOBON metagenome sediment sample from station BPNS collected on 2024-11-29 community collected micro,412755,marine sediment metagenome,metagenome,sediment [ENVO:00002007],2024-11-29 00:00:00,BPNS_So_241129,,,,micro,,3,,,,Van Veen Grab,SoSOP3,NA,2024-11-29 00:00:00,OIS general lab -80 Freezer,-80,Julie Muyle,NA,Hanneloor Heynderickx,0000-0002-5611-837X,Y,NA,NA,NA,NA,NA,NA,,NA,NA,NA,EMOBON_BPNS_So_196
 EMOBON 241129 BPNS So3 Micro R4,EMOBON metagenome sediment sample from station BPNS collected on 2024-11-29 community collected micro,412755,marine sediment metagenome,metagenome,sediment [ENVO:00002007],2024-11-29 00:00:00,BPNS_So_241129,,,,micro,,4,,,,Van Veen Grab,SoSOP3,NA,2024-11-29 00:00:00,OIS general lab -80 Freezer,-80,Julie Muyle,NA,Hanneloor Heynderickx,0000-0002-5611-837X,Y,NA,NA,NA,NA,NA,NA,,NA,NA,NA,EMOBON_BPNS_So_197
 EMOBON 241129 BPNS So3 Micro B,EMOBON metagenome sediment sample from station BPNS collected on 2024-11-29 community collected micro,256318,metagenome,metagenome,sediment [ENVO:00002007],2024-11-29 00:00:00,BPNS_So_241129,,,,micro,,blank_1,,,,NA,SoSOP3,NA,2024-11-29 00:00:00,OIS general lab -80 Freezer,-80,Julie Muyle,NA,Hanneloor Heynderickx,0000-0002-5611-837X,N,NA,NA,NA,NA,NA,NA,,NA,NA,NA,EMOBON_BPNS_So_198
-EMOBON 250227 BPNS So3 Micro R1,,,,,,,,,,,,,,,,,,,,,,,,,,,N,,2025-10-07 00:00:00,2025-10-10 00:00:00,-20,,,batch_7,,,,EMOBON_BPNS_So_199
+EMOBON 250227 BPNS So3 Micro R1,,,,,,,,,,,,,,,,,,,,,,,,,,,N,,2025-10-07 00:00:00,2025-10-10 00:00:00,-20,2025-12-02 00:00:00,2025-12-04 00:00:00,batch_7,,,,EMOBON_BPNS_So_199
 EMOBON 250227 BPNS So3 Micro R2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,EMOBON_BPNS_So_200
 EMOBON 250227 BPNS So3 Micro R3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,EMOBON_BPNS_So_201
 EMOBON 250227 BPNS So3 Micro R4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,EMOBON_BPNS_So_202
 EMOBON 250227 BPNS So3 Micro B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,EMOBON_BPNS_So_203
-EMOBON 250423 BPNS So3 Micro R1,,,,,,,,,,,,,,,,,,,,,,,,,,,N,,2025-10-07 00:00:00,2025-10-10 00:00:00,-20,,,batch_7,,,,EMOBON_BPNS_So_204
+EMOBON 250423 BPNS So3 Micro R1,,,,,,,,,,,,,,,,,,,,,,,,,,,N,,2025-10-07 00:00:00,2025-10-10 00:00:00,-20,2025-12-02 00:00:00,2025-12-04 00:00:00,batch_7,,,,EMOBON_BPNS_So_204
 EMOBON 250423 BPNS So3 Micro R2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,EMOBON_BPNS_So_205
 EMOBON 250423 BPNS So3 Micro R3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,EMOBON_BPNS_So_206
 EMOBON 250423 BPNS So3 Micro R4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,EMOBON_BPNS_So_207
 EMOBON 250423 BPNS So3 Micro B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,EMOBON_BPNS_So_208
-EMOBON 250828 BPNS So3 Micro R1,,,,,,,,,,,,,,,,,,,,,,,,,,,N,,2025-10-07 00:00:00,2025-10-10 00:00:00,-20,,,batch_7,,,,EMOBON_BPNS_So_209
+EMOBON 250828 BPNS So3 Micro R1,,,,,,,,,,,,,,,,,,,,,,,,,,,N,,2025-10-07 00:00:00,2025-10-10 00:00:00,-20,2025-12-02 00:00:00,2025-12-04 00:00:00,batch_7,,,,EMOBON_BPNS_So_209
 EMOBON 250828 BPNS So3 Micro R2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,EMOBON_BPNS_So_210
 EMOBON 250828 BPNS So3 Micro R3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,EMOBON_BPNS_So_211
 EMOBON 250828 BPNS So3 Micro R4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,EMOBON_BPNS_So_212
 EMOBON 250828 BPNS So3 Micro B,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,EMOBON_BPNS_So_213
-EMOBON 250423 BPNS So3 Macro R1,,,,,,,,,,,,,,,,,,,,,,,,,,,N,,2025-10-07 00:00:00,2025-10-10 00:00:00,-20,,,batch_7,,,,EMOBON_BPNS_So_214
+EMOBON 250423 BPNS So3 Macro R1,,,,,,,,,,,,,,,,,,,,,,,,,,,N,,2025-10-07 00:00:00,2025-10-10 00:00:00,-20,2025-11-24 00:00:00,2025-11-26 00:00:00,batch_7,,,,EMOBON_BPNS_So_214
 EMOBON 250423 BPNS So3 Macro R2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,EMOBON_BPNS_So_215
 EMOBON 250423 BPNS So3 Macro R3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,EMOBON_BPNS_So_216
 EMOBON 250423 BPNS So3 Macro R4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,EMOBON_BPNS_So_217
