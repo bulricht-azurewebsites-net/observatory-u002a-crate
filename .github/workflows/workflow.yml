@@ -24,12 +24,12 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: update on behalf of populate-action
-      - name: data-quality-control-action
-        uses: emo-bon/data-quality-control-action@main
-      - name: git-auto-commit-action
-        uses: stefanzweifel/git-auto-commit-action@v7
-        with:
-          commit_message: update on behalf of data-quality-control-action
+      # - name: data-quality-control-action
+      #   uses: emo-bon/data-quality-control-action@main
+      # - name: git-auto-commit-action
+      #   uses: stefanzweifel/git-auto-commit-action@v7
+      #   with:
+      #     commit_message: update on behalf of data-quality-control-action
       # - name: semantic-uplifting-action
       #   uses: emo-bon/semantic-uplifting-action@main
       # - name: git-auto-commit-action
