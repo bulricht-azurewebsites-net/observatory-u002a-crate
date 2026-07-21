@@ -8,13 +8,13 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GITHUB_REPOSITORY: ${{ github.repository }}
-      ROCRATE_PROFILE_URI: https://data.emobon.embrc.eu/observatory-profile/latest
-      WATER_LOGSHEET_URL: https://docs.google.com/spreadsheets/d/1mEi4Bd2YR63WD0j54FQ6QkzcUw_As9Wilue9kaXO2DE/edit?usp=sharing
-      SEDIMENT_LOGSHEET_URL: https://docs.google.com/spreadsheets/d/1zc0bZdpl-Eoi35lI_5BGkElbscplyQRyNPLkSgeEyEQ/edit?usp=sharing
-      HARD_LOGSHEET_URL: https://docs.google.com/spreadsheets/d/1qhp2osFgZ9xuHg59AzwCAw2AoVjl3m8OEO5ou_oZOqg/edit?usp=sharing
+      # ROCRATE_PROFILE_URI: https://data.emobon.embrc.eu/observatory-profile/latest
+      # WATER_LOGSHEET_URL: https://docs.google.com/spreadsheets/d/1mEi4Bd2YR63WD0j54FQ6QkzcUw_As9Wilue9kaXO2DE/edit?usp=sharing
+      # SEDIMENT_LOGSHEET_URL: https://docs.google.com/spreadsheets/d/1zc0bZdpl-Eoi35lI_5BGkElbscplyQRyNPLkSgeEyEQ/edit?usp=sharing
+      # HARD_LOGSHEET_URL: https://docs.google.com/spreadsheets/d/1qhp2osFgZ9xuHg59AzwCAw2AoVjl3m8OEO5ou_oZOqg/edit?usp=sharing
       DATA_QUALITY_CONTROL_THRESHOLD_DATE: "2022-12-31"
       DATA_QUALITY_CONTROL_ASSIGNEE: github-actions[bot]
-      RDF_AGGREGATOR_GLOB: "sediment/**/*: ttl, water/**/*: ttl, ro-crate-metadata.json: json-ld"
+      # RDF_AGGREGATOR_GLOB: "sediment/**/*: ttl, water/**/*: ttl, ro-crate-metadata.json: json-ld"
     steps:
       - name: checkout
         uses: actions/checkout@v5
@@ -30,23 +30,23 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: update on behalf of data-quality-control-action
-      - name: semantic-uplifting-action
-        uses: emo-bon/semantic-uplifting-action@main
-      - name: git-auto-commit-action
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: update on behalf of semantic-uplifting-action
-      - name: rocrate-to-pages
-        uses: vliz-be-opsci/rocrate-to-pages@latest
-        with:
-          multiple_rocrates: true
-          release_management: false
-          include_draft: false
-          index_html: false
-          space_to_pages_homepage: https://data.emobon.embrc.eu
-      - name: actions-gh-pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./unicornpages
+      # - name: semantic-uplifting-action
+      #   uses: emo-bon/semantic-uplifting-action@main
+      # - name: git-auto-commit-action
+      #   uses: stefanzweifel/git-auto-commit-action@v5
+      #   with:
+      #     commit_message: update on behalf of semantic-uplifting-action
+      # - name: rocrate-to-pages
+      #   uses: vliz-be-opsci/rocrate-to-pages@latest
+      #   with:
+      #     multiple_rocrates: true
+      #     release_management: false
+      #     include_draft: false
+      #     index_html: false
+      #     space_to_pages_homepage: https://data.emobon.embrc.eu
+      # - name: actions-gh-pages
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: ./unicornpages
 
