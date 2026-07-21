@@ -18,12 +18,12 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v5
-      - name: populate-action
-        uses: emo-bon/populate-action@main
-      - name: git-auto-commit-action
-        uses: stefanzweifel/git-auto-commit-action@v7
-        with:
-          commit_message: update on behalf of populate-action
+      # - name: populate-action
+      #   uses: emo-bon/populate-action@main
+      # - name: git-auto-commit-action
+      #   uses: stefanzweifel/git-auto-commit-action@v7
+      #   with:
+      #     commit_message: update on behalf of populate-action
       - name: data-quality-control-action
         uses: emo-bon/data-quality-control-action@main
       - name: git-auto-commit-action
